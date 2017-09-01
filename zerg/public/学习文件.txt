@@ -1,0 +1,46 @@
+        //独立验证
+/*
+        $data = [
+            'name'=> 'vendor11111',
+            'email' => 'vendorqq.com'
+        ];
+        $validate = new Validate([
+            'name'=>'require|max:10',
+            'email'=>'email'
+        ]);
+        //加上batch()进行批量验证
+        $result = $validate->batch()->check($data);
+   var_dump( $validate->getError());*/
+
+
+
+
+
+
+
+      //独立验证
+           /*
+                   $data = [
+                       'name'=> 'vendor11111',
+                       'email' => 'vendorqq.com'
+                   ];
+                   $validate = new Validate([
+                       'name'=>'require|max:10',
+                       'email'=>'email'
+                   ]);
+                   //加上batch()进行批量验证
+                   $result = $validate->batch()->check($data);
+              var_dump( $validate->getError());*/
+
+
+           //验证器  ：区别： 验证器对于validate的一个更好的封装
+
+           /*$data = [
+               'name'=> 'vendor11111',
+               'email' => 'vendorqq.com'
+           ];
+           $validate = new TestValidate();
+           $result = $validate->batch()->check($data);
+           var_dump( $validate->getError());*/
+
+
